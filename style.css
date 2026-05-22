@@ -1,0 +1,245 @@
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    overflow-x:hidden;
+}
+html{
+    overflow-x:hidden;
+}
+a{
+    color:black;
+    text-decoration:none;
+}
+.navbar {
+    display:flex;
+    gap: 35px;
+    justify-content:space-between;
+    padding:5px 100px;
+    align-items:center;
+}
+.navbar a{
+    text-decoration:none;
+    color:#A7ACB3;
+    font-family:'Courier New', Courier, monospace;
+    justify-content:space-between;
+    align-items:center;
+    padding:5px 30px;
+}
+.logo-area{
+    display:flex;
+    align-items:center;
+}
+.navbar-links{
+    display:flex;
+    gap: 20px;
+    align-items:center;
+}
+#signup{
+    background-color:cornflowerblue;
+    color:darkblue;
+    border-style:none;
+    border-radius:20px;
+    display:flex;
+    padding:10px 20px;
+    font-family:'Courier New', Courier, monospace;
+    border-width:0cap;
+}
+.banner{
+    background-image:url("blob-scene-haikei\ \(2\).png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    margin:0%;
+    width:100%;
+    padding: 75px 0px;
+    display:block;
+}
+#banner-text{
+    margin-left:200px;
+    margin-bottom:20px;
+    font-size:30px;
+    font-family:'Courier New', Courier, monospace;
+    color:darkblue;
+
+}
+#banner-text2{
+    margin-left:200px;
+    margin-bottom:20px;
+    font-family:'Courier New', Courier, monospace;
+    color:#00008b;
+
+}
+.products{
+    width:200px;
+    border-style:none;
+    border-radius:20px;
+    padding:5px 20px;
+    font-family:'Courier New', Courier, monospace;
+    border-width:0cap;
+    margin-left: 100px;
+    margin-top: 50px;
+    display:grid;
+    place-items:center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+}
+.products:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+#product-text{
+    font-size:20px;
+}
+#potion-image{
+    margin-top:25px;
+}
+#product-subtext{
+    color:#A7ACB3;
+    font-size:14px;
+}
+#price{
+    color:green;
+    font-size:20px;
+    margin-top:0%;
+    margin-bottom:0%;
+    text-align:left;
+    padding-right: 120px;
+    padding-top:0%;
+    padding-bottom:0%;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+}
+#logo-text{
+    text-decoration:none;
+    color:#000000;
+    font-family:'Kablammo', 'Courier', 'monospace';
+    justify-content:space-between;
+    align-items:center;
+    padding:0 !important;
+    font-size:30px
+}
+#cool-animation{
+    color:#A7ACB3;
+    font-family:'Courier New', Courier, monospace;
+    padding:10px 20px;
+    border-radius:20px;
+    border-width:0cap;
+    border-style:none;
+
+}
+#cool-animation:hover{
+    color:#00008b;
+    background-color:rgba(100, 148, 237, 0.342);
+}
+.products-container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    padding: 5px 100px;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+#potion-image2{
+    height:185px;
+    margin-top:25px;
+}
+#potion-image3{
+    width:185px;
+    margin-top:25px;
+}
+.logo-area-footer{
+    display:flex;
+    background-color:cornflowerblue;
+    width:100%;
+    height:500px;
+    align-items:flex-start;
+    flex-direction:column;
+    justify-content:center;
+    padding:5px 100px;
+}
+#productivity-items{
+    margin-top:20px;
+    margin-left:10px;
+    font-family:'Courier New', Courier, monospace;
+    color:#00008b;
+    font-size:16px;
+}
+.textandlogobrand-footer{
+    display:flex;
+    align-items:center;
+}
+.copyright{
+    background-color:#00008b;
+    color:cornflowerblue;
+    text-align:center;
+    width:100%;
+    padding:15px 0px;
+    font-size:16px;
+}
+#copyright-text{
+    margin:0;
+    font-weight:normal;
+    font-family:'Courier New', Courier, monospace;
+
+}
+.footer-social-links{
+    margin-top:20px;
+    margin-left:10px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:40px;
+}
+input::placeholder{
+    color:cornflowerblue;
+    font-family:'Courier New', Courier, monospace;
+}
+textarea::placeholder{
+    color:cornflowerblue;
+    font-family:'Courier New', Courier, monospace;
+}
+input[type="text"], select{
+    background-color:#00008b;
+    color:cornflowerblue;
+    border-radius:8px;
+    padding:10px;
+    border:1px solid #00008b;
+    margin:7px;
+    height:25px;
+    width:500px
+}
+input[type="email"],
+textarea,
+select{
+    background-color:#00008b;
+    color:cornflowerblue;
+    border-radius:8px;
+    padding:10px;
+    border:1px solid #00008b;
+    margin:7px;
+    width:500px
+}
+#send{
+    background-color:#00008b;
+    color:cornflowerblue;
+    border-style:none;
+    border-radius:8px;
+    display:flex;
+    padding:10px 20px;
+    font-family:'Courier New', Courier, monospace;
+    border-width:0cap;
+    margin:7px;
+}
+#buy{
+    background-color:#00008b;
+    color:cornflowerblue;
+    border-style:none;
+    border-radius:8px;
+    display:flex;
+    font-family:'Courier New', Courier, monospace;
+    margin:7px;
+    padding:10px 20px;
+}
