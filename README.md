@@ -103,3 +103,30 @@ All forms and interactive elements are **visual only** and do not process or sto
 This project is a **fictional UI concept**. All products, interactions, and flows are simulated purely for design and educational purposes.
 
 It should not be interpreted as a functional e-commerce platform.
+
+---
+
+## 🌐 Live Demo
+
+[Live Demo](https://the-witch-tau.vercel.app/)
+
+---
+
+### ✍️ Author
+
+I'm [Youssef Mohammed](https://github.com/youssefmoham655-dev) and I created this project to practice building a fictional e-commerce UI using only HTML and CSS and to bring a late-night idea to life.
+
+The aim of this project is to:
+- Improve front-end layout and styling skills
+- Experiment with product-based UI design
+- Build a visually engaging static website
+- Achieve my late-night idea 
+
+This project is my take on designing a playful and imaginary online store experience without any backend functionality.
+
+After all, the goal of learning web development is to build and share ideas through clear and effective interfaces.
+
+---
+## Feedback
+For feedback or suggestions, feel free to contact me at:  
+*youssefmoham655@gmail.com*
