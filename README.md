@@ -29,3 +29,7 @@ AI tools were used only to find mistakes in my code and tell me how to deal with
 ---
 ## Developer
 [Youssef Mohammed](https://github.com/youssefmoham655-dev)
+
+Note by the developer:
+
+This project has no commits and how to commit through the code editor because when I submitted it, I wasn't aware of them and really I need the hours of this project to go to horizon equinox.
